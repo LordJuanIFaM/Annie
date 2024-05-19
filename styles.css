@@ -1,0 +1,58 @@
+body {
+    background-image: url('fondo.png'); /* Asegúrate de tener la imagen 'fondo.jpg' en la misma carpeta */
+    background-size: cover; /* Ajusta la imagen para cubrir toda la página */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: rgb(121, 8, 111); /* Cambia el color del texto a blanco para mayor visibilidad */
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Asegura que el fondo cubra toda la altura de la página */
+}
+
+/* Estilo para los botones de pestañas */
+.tab {
+    overflow: hidden;
+    border-bottom: 1px solid #450658;
+    background-color: rgba(121, 8, 111, 0.8); /* Fondo semitransparente para las pestañas */
+}
+
+.tab button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+}
+
+.tab button:hover {
+    background-color: #83079c;
+}
+
+.tab button.active {
+    background-color: #560e77;
+}
+
+/* Estilo para el contenido de las pestañas */
+.tabcontent {
+    display: none;
+    padding: 20px;
+    color: black; /* Cambia el color del texto a negro para mejor contraste */
+    background-color: rgba(2241, 17, 223, 0.8); /* Fondo semitransparente para el contenido */
+    margin: 20px;
+    border-radius: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #9f12f1;
+}
